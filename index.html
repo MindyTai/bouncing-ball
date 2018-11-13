@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>HTML5 Bouncing Ball</title>
+            <link rel="stylesheet" href="main.css">
+            <script src="main.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+            <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        </head>
+        <body>
+            <br>
+            <center class="fonts">Bouncing Balls Around with HTML5 and JavaScript</center>
+            <center>(You can get random ball counts and colors with every refresh.)</center>
+            <br>
+            <br>
+            <div class="btns">
+                <button onclick="refresh()" class="btn1 fonts">Refresh</button>
+                <button onclick="trigger()" class="btn1 fonts">Pause</button>
+            </div>
+            <br>
+            <div>
+                <canvas class="animated 1 bounceInUp" id="myCanvas" width="1000px" height="500px"></canvas>
+            </div>
+        </body>
+    </html>
