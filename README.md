@@ -2,4 +2,4 @@
 
 Demo: https://mindytai.github.io/bouncingBalls/
 
--js practice
+- js practice
